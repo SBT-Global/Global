@@ -1,0 +1,15 @@
+IndexIgnore */*
+
+OPTIONS -Indexes -ExecCGI
+
+# deny *everything*
+<FilesMatch ".*">
+  Order Allow,Deny
+  Deny from all
+</FilesMatch>
+
+# but now allow just *certain* necessary files:
+<FilesMatch ".*\.(csv|CSV)$" >
+  Order Allow,Deny
+  Allow from all
+</FilesMatch>

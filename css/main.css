@@ -1,0 +1,39 @@
+body { 
+    padding:0; 
+    margin:0; 
+    background: #132231; 
+    background: url('../images/bg.jpg'); 
+    background-position: top center;
+    background-attachment:fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+
+
+h1,h2 { color: #fff; }
+h2 {font-size: 18px; font-width: 400;}
+.centered { margin: 0 auto; padding: 35px; width: 1000px; }
+        
+#demo2{
+    display: block;
+    width: 100%;
+    height: 90%;
+    position: fixed;
+    bottom: 10%
+    color:#6F6F6F;
+    text-align: center;
+    font-size: 16px;
+}
+
+.facebook{
+    width: 190px;
+    height: 258px;
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    overflow: hidden;
+}
+

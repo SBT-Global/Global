@@ -1,0 +1,266 @@
+
+/* -------------------------------------------------- */
+/*	Global Styles
+/* -------------------------------------------------- */
+
+body { background: #ffffff; }
+
+	.tmm-view-mode article .title-item a:hover { color: #4e5156; }
+
+
+
+	#logo h1 {
+		font-size: 48px;
+	}
+
+
+
+	#logo h1 a {
+		color: #232527;
+
+	}
+
+
+
+
+
+/* -------------------------------------------------- */
+/*	Main Navigation
+/* -------------------------------------------------- */
+
+/* -------------------------------------------------- */
+/*	Headings
+/* -------------------------------------------------- */
+
+
+	h1 {
+		font-family:calibri;
+		font-size:35px;
+		color:#585757;
+	}
+
+	h1 a { color: #ed1b24; }
+	h1 a:hover { color:#4e5156; }
+
+
+
+	h2 {
+		font-family:calibri;
+		font-size:29px;
+		color:#585757;
+	}
+
+	h2 a { color:#ed1b24; }
+	h2 a:hover { color:#4e5156; }
+
+
+
+	h3 {
+		font-family:calibri;
+		font-size:19px;
+		color:#585757;
+	}
+
+	h3 a { color:#ed1b24; }
+	h3 a:hover { color:#4e5156; }
+
+
+
+	h4 {
+		font-family:calibri;
+		font-size:18px;
+		color:#585757;
+	}
+
+	h4 a { color:#ed1b24; }
+	h4 a:hover { color:#4e5156; }
+
+
+
+	h5 {
+		font-family:calibri;
+		font-size:16px;
+		color:#585757;
+	}
+
+	h5 a { color: var(--blue-color); }
+	h5 a:hover { color:#4e5156; }
+
+
+
+	h6 {
+		font-family:calibri;
+		font-size:16px;
+		color:#585757;
+	}
+
+	h6 a { color: var(--blue-dark-color); }
+	h6 a:hover { color:#4e5156; }
+
+
+/* -------------------------------------------------- */
+/*	Content
+/* -------------------------------------------------- */
+
+
+	.container #main {
+		color: #7e858b;
+		margin-bottom: 20px;
+	}
+
+
+/* -------------------------------------------------- */
+/*	Buttons
+/* -------------------------------------------------- */
+
+
+	#back-top,
+	.tagcloud a,
+	button,
+	.button.orange {
+		font-size: 13px;
+		color: #fbfafa;
+		background-color: var(--blue-dark-color);
+	}
+	.button.dark:hover {
+		background-color: var(--blue-dark-color);
+		color: var(--white-text);
+	}
+	button:hover {
+		background-color: var(--yellow-color);
+		color: #000;
+	}
+	
+	.button.large {
+		width:100%;
+		font-size:30px;
+	}
+
+	#back-top:hover,
+	.tagcloud a:hover,
+	.button.orange:hover,
+	.button.dark {
+		font-size: 13px;
+		color: #fff;
+		background-color: var(--yellow-color);
+	}
+
+	.highlighted-button {
+		display: inline-block;
+		margin: 10px 0;
+		padding-bottom: 3px;
+		font-size: 24px;
+	}
+	
+	.highlighted-button a {
+		padding: 0 10px;
+		height: 27px;
+		color: #fff;
+		background-color: var(--blue-dark-color);
+	}
+	.highlighted-button a:hover {
+		padding: 0 10px;
+		height: 27px;
+		color: #fff;
+		background-color: var(--blue-dark-color);
+	}
+
+/* -------------------------------------------------- */
+/*	Widgets
+/* -------------------------------------------------- */
+
+
+	#sidebar .widget > .widget-title {
+		color: #7f858b;
+	}
+
+	#sidebar .widget,
+	#sidebar .widget p {
+		color: #7d7d7d;
+	}
+
+
+	#sidebar .widget a:hover:not(.button) {
+		color: var(--blue-color);
+	}
+
+
+
+		.boxed-widget .widget-title {
+			color: #7f858b;
+		}
+
+			.boxed-widget .widget-title > span {
+				color: var(--blue-color);
+			}
+
+	.boxed-widget {
+		background-color: #f7f7f7;
+		color: #777676;
+	}
+
+	
+	
+
+
+	#footer .widget > .widget-title {
+		color: #fbfafa;
+	}
+
+    #footer .widget-title > span {
+        color: #fe5214;
+    }
+
+	#footer .widget,
+	#footer .widget p {
+		color: #aeadad;
+	}
+
+/* -------------------------------------------------- */
+/*	Footer
+/* -------------------------------------------------- */
+
+
+	#footer,
+	#footer .widget,
+	#footer p {
+		color: var(--white-text);
+	}
+
+	#footer a:not(.button) {
+		color: #fff;
+	}
+
+	#footer a:hover:not(.button) {
+		color: #caba45;
+		text-decoration:underline;
+	}
+
+	#footer .adjective,
+	.widget_text .hours li {
+		border-top: 1px solid #696969;
+	}
+
+	#footer .widget-title,
+	#footer .widget_links li {
+		border-bottom: 1px solid #696969;
+	}
+
+.margin-bottom-10 {
+	margin-bottom: 10px;
+}
+.accessories {
+	list-style:none;
+	text-align:center;
+}
+.accessories-off {
+	background-color:#fff;
+	padding:5px;
+	border:1px solid #dddcdc;
+}
+.accessories-on {
+	background-color:#fdc2a4;
+	color:#000;
+	padding:5px;
+	border:1px solid #dddcdc;
+}

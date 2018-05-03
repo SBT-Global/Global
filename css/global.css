@@ -1,0 +1,211 @@
+body {
+    font-family: calibri !important;
+    font-size: 12px !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+blockquote {
+    border-left: 1px solid #dddcdc;
+}
+
+.top-header-line .contacts-list i,
+.navigation .rightarrowclass:before,
+.navigation .downarrowclass:before,
+.widget_archive li:before,
+.widget_categories li:before,
+.widget_links li:before,
+.widget_nav_menu li:before,
+.widget_meta li:before,
+.widget_pages li:before,
+.widget_recent_comments li:before,
+.widget_recent_entries li:before,
+.widget_drive_cars .users_links li:before,
+.widget_search button[type="submit"]:before,
+.wp-pagenavi .next,
+.wp-pagenavi .prev,
+.sort-by-list .active span:after,
+.layout-switcher a i,
+#content .carlocations_list>li li:before,
+ul.list .type-3:before,
+.error i,
+.success i,
+.info i,
+.notice i,
+.errorMessage i,
+#back-top:before,
+.tweets-container li:before,
+.acc-trigger i,
+.widget_calendar tfoot #next a:before,
+.widget_calendar tfoot #prev a:before {
+    font-family: 'fontello';
+}
+
+:root {
+    --info-color: #d9edf7;
+    --default-color: #ccc;
+    --default-dark-color: #888;
+    --primary-color: #e7e7e7;
+    --blue-color: #0c5b9e;
+    --blue-light-color: rgba(12, 91, 158, 0.1);
+    --blue-dark-color: #083d6b;
+    --green-color: #008000;
+    --green-dark-color: #005d00;
+    --red-color: #e60013;
+    --red-dark-color: #87000b;
+    --transparent-red: rgba(230, 0, 19, 0.4);
+    --transparent-black: rgba(0, 0, 0, 0.4);
+    --yellow-color: #f39c12;
+    --yellow-dark-color: #cf7b12;
+    --white-text: #fff;
+    --white-color: #fff;
+    --border-bottom-grey: #7e858b;
+}
+
+blue,
+.clrBlue {
+    color: #0c5b9e !important;
+}
+
+red,
+.clrRed {
+    color: var(--red-color) !important;
+}
+
+.clrWhite {
+    color: var(--white-color) !important;
+}
+
+.clrGreen {
+    color: var(--green-color) !important;
+}
+
+.clrDefault {
+    color: var(--default-color) !important;
+}
+
+.defaultBG {
+    background: var(--default-color) !important;
+    color: var(--default-dark-color) !important;
+}
+
+.infoBG {
+    background: var(--info-color) !important;
+}
+
+.redBG {
+    background: var(--red-color) !important;
+}
+
+.yellowBG {
+    background: var(--yellow-color) !important;
+}
+
+.greenBG {
+    background: var(--green-color) !important;
+    color: #fff !important;
+}
+
+.greenBG:hover {
+    background: var(--green-dark-color) !important;
+}
+
+.borderBottomGrey1 {
+    border-bottom: 1px solid var(--border-bottom-grey);
+}
+
+.verticalTable tr {
+    float: left;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 30px;
+}
+
+.verticalTable td,
+.verticalTable th {
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: left;
+    padding: 6px 10px;
+    font-size: 12px;
+    border: 0;
+}
+
+.container {
+    position: relative;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1258px;
+    }
+}
+
+.listHeader th.Clickable {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.bg-info th {
+    position: relative;
+    text-align: center;
+}
+
+.bg-info th i {
+    position: absolute;
+    right: 7px;
+    top: 0;
+    bottom: 0;
+    height: 17px;
+    margin: auto;
+}
+
+.widget_recent_entries ul,
+.widget_categories ul,
+.widget_archive ul,
+.widget_links ul,
+.widget-title,
+.section-title,
+h2.title,
+.comment-reply-title,
+.page-header,
+.widget-title,
+.section-title,
+.widget_dealers h4,
+.comment-reply-title,
+.divider {
+    border-bottom: 1px solid var(--border-bottom-grey);
+}
+
+.widget-title,
+.section-title,
+.widget_dealers h4,
+.comment-reply-title {
+    margin-bottom: 20px;
+    padding-bottom: 7px;
+    color: #222;
+    font-size: 22px;
+}
+
+.widget-title span,
+.section-title span,
+.comment-reply-title span {
+    color: var(--blue-color);
+}
+
+.tmm-view-mode.item-list article:before,
+.wp-pagenavi,
+.entry.secondary,
+.comment .children,
+.comment {
+    border-top: 1px solid #dddcdc;
+}
