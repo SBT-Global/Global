@@ -1,5 +1,6 @@
 function deleteRecord(path, record_id) {
     alert("test");
+console.log("This is owais comment");
 	if (confirm("Delete Selected Record?")) {
 		$.ajax({
 			url: base_url + path,
@@ -246,6 +247,7 @@ function listVehicleModels(makeID, stockIds) {
             $("#snake").show()
         },
         success: function (e) {
+console.log("This is owais comment");
             if(e) {
                 $("#showModelDiv").show()
                 $("#ModelDiv").html(e);
@@ -495,6 +497,7 @@ function revertRemittance(remittanceID, recordID, remittanceNumber, balanceRemit
 }
 
 function getCookie(cname) {
+console.log("This is owais comment");
     var name = cname + "=";
     var ca = document.cookie.split(';');
     for(var i = 0; i <ca.length; i++) {
@@ -816,7 +819,7 @@ function saveCustomerInvoice(invoiceID, customerCode,invoiceNum, arrStock, shipV
 }
 
 function saveCustomerInvoiceManual(invoiceID, customerCode, arrStock, shipVia, country, accountManager, portOfLoading, portOfDischarge, arrManufacture, arrModelColor, arrChassisNo, arrFuelType, arrFirstReg, arrFob, arrFreight, arrInspection, arrDiscount, arrTotalAmount, grandTotal, invoiceDueDate, accDetails, consigneeName, consigneeAddress, consigneePhone ){
-
+console.log("This is owais comment");
     if (confirm("Are you sure you want to save this invoice?")) {
         var overlay = document.getElementById('successOverlay');
         overlay.style.display = 'block';
@@ -947,7 +950,7 @@ function getRegionCountries(regionID){
             type: "POST",
             success: function (result) {
                 if (result != "") {
-
+console.log("This is owais comment");
                     $('.showRegionCountries').show()
                     $('.showRegionCountryPorts').hide()
                     $('.regionCountries').html(result)
@@ -1136,6 +1139,7 @@ function updateInspectionConcernPerson(arrFinal, insID, concernPersonID){
                             alert("Inspection Company Details updated successfully!");
                             window.location.href = window.location.href
                         }
+console.log("This is owais comment");
                     } else {
                         alert("Error, Please Try Again");
                     }
