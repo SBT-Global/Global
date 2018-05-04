@@ -1,5 +1,6 @@
 function deleteRecord(path, record_id) {
     alert("test");
+    console.log("testing commit");
 	if (confirm("Delete Selected Record?")) {
 		$.ajax({
 			url: base_url + path,
