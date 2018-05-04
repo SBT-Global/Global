@@ -1,4 +1,5 @@
 function deleteRecord(path, record_id) {
+    alert("test");
 	if (confirm("Delete Selected Record?")) {
 		$.ajax({
 			url: base_url + path,
